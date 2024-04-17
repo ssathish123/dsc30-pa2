@@ -76,7 +76,7 @@ public class MyStack {
      * No Params
      * */
     public String peek() {
-        if (this.isEmpty()){
+        if (size == 0){
             throw new EmptyStackException();
         }
         return stack[size-1];
