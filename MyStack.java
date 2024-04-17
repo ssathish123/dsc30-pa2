@@ -101,7 +101,7 @@ public class MyStack {
      * No Params
      * */
     public static String pop() {
-        if (this.isEmpty()){
+        if (size == 0){
             throw new EmptyStackException();
         }
 
